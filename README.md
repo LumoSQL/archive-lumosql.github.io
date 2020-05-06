@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+<!-- SPDX-License-Identifier: CC-BY-SA-4.0 -->
+<!-- SPDX-FileCopyrightText: 2020 The LumoSQL Authors -->
+<!-- SPDX-ArtifactOfProjectName: LumoSQL -->
+<!-- SPDX-FileType: Documentation -->
+<!-- SPDX-FileComment: Original by Dan Shearer, 2020 -->
 
-You can use the [editor on GitHub](https://github.com/LumoSQL/lumosql.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+LumoSQL
+=======
 
-### Markdown
+![](./images/lumo-logo-temp.svg "LumoSQL logo")
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Table of Contents
+=================
 
-# Header 1
-## Header 2
-### Header 3
+Welcome to the LumoSQL project, which builds on the excellent
+[SQLite](https://sqlite.org/) project without forking it.  LumoSQL is an SQL database
+which can be used in embedded applications identically to SQLite, but also
+optionally with different storage backends and other additional behaviour.
+LumoSQL emphasises benchmarking, code reuse and modern database implementation.
 
-- Bulleted
-- List
+* [Quick Start](./lumo-quickstart.md)
+* [LumoSQL Project Aims](./lumo-project-aims.md)
+* Creating a LumoSQL Ecosystem
+    + [The LumoSQL Landscape](./lumo-landscape.md)
+    + [Codebases relevant to LumoSQL](./lumo-relevant-codebases.md)
+    + [Full Knowledgebase Relevant to LumoSQL](./lumo-relevant-knowledgebase.md)
+* LumoSQL in Technical Detail
+    + [Architecture](./lumo-architecture.md)
+    + [Implementation](./lumo-implementation.md)
+        * [Not-forking Scheme](./lumo-not-forking.md)
+        * [Corruption Detection and Magic](./lumo-corruption-detection-and-magic.md)
+* [Benchmarking](./lumo-benchmarking.md)
+* [Legal Aspects](./lumo-legal-aspects.md)
+* [LumoSQL Documentation Standards](./lumo-doc-standards.md)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LumoSQL/lumosql.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
